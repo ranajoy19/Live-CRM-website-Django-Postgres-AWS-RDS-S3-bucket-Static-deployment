@@ -1,0 +1,42 @@
+{% load static  %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/css1.css' %}">
+
+<script src="{% static 'css/javascript/js.js' %}"></script>
+
+    <title>login Page</title>
+
+</head>
+<body>
+
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form" method="POST" action="">
+
+        {% csrf_token %}
+      <input type="text" name="username" placeholder="username"/>
+      <input type="password" name="password" placeholder="password"/>
+      <button type="submit">login</button>
+       {% for message in messages %}
+         <p id="messages">{{message}}</p>
+          {% endfor%}
+      <p class="message">Not registered? <a href="{% url 'register'%}">Create an account</a></p>
+        <p class="message">Forgot password ? <a href="{% url 'reset_password'%}">Reset Password </a></p>
+    </form>
+
+  </div>
+</div>
+</body>
+</html>

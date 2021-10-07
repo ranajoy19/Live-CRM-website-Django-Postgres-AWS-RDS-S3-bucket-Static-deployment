@@ -1,0 +1,28 @@
+{% extends 'main.html' %}
+ {% load static %}
+
+
+<br>
+<div class="row">
+	<div class="col-md-6">
+		<div class="card card-body">
+             {% block content %}
+
+             <p> Are you sure you want to Delete this item {{item}}</p>
+
+                 <form action="" method="POST" >
+
+
+                 {% csrf_token %}
+                  {{form}}
+
+                <a href="{% url 'home' %}">Cancle</a>
+
+                 <input class="" type="submit" name="Confirm">
+
+                </form>
+
+        </div>
+    </div>
+</div>
+{% endblock  %}
