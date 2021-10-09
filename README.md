@@ -1,4 +1,5 @@
 # Live-CRM-website-with-the-Django-framework-Postgres-AWS-RDS-S3-bucket-Static-deployment-
+[![Watch the video](https://img.youtube.com/vi/kqugOgqnKQY/0.jpg)](https://youtu.be/kqugOgqnKQY)</br>
 This is a django base customer relationship management website 
 website link  https://ranajoy-crm.herokuapp.com/ 
 Features like 1)Dynamic URL's
