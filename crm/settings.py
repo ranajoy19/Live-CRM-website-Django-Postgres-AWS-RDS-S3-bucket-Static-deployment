@@ -93,9 +93,9 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'demo_1',
-        'USER': 'ranajoy',
-        'PASSWORD':'lavalava',
-        'HOST':'database-1.czspfwk4r9vs.ap-south-1.rds.amazonaws.com',
+        'USER': '#####',
+        'PASSWORD':'#######',
+        'HOST':'#########',
         'PORT':'5432',
     }
 }
@@ -162,8 +162,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'ranajoybhattacharjee98@gmail.com'
-EMAIL_HOST_PASSWORD = 'lavalava'
+EMAIL_HOST_USER = '##########'
+EMAIL_HOST_PASSWORD = '#####'
 
 
 
