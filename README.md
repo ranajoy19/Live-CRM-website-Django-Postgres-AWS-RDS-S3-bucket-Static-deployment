@@ -4,7 +4,7 @@ Reusable django app to for Customer relationship management with role base restr
 
 
 
-[![Watch the video](https://img.youtube.com/vi/eiarHb4LhTo/0.jpg)](https://youtu.be/eiarHb4LhTo)</br>
+[![Watch the video](https://img.youtube.com/vi/wxz1wcvPVWY/0.jpg)](https://www.youtube.com/watch?v=wxz1wcvPVWY)</br>
 
 Documentation
 -------------
