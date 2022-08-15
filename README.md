@@ -1,5 +1,5 @@
 
-Reusable django app to for Customer relationship management with role base restriction 
+Creating a CRM website with the Django framework| Postgres + AWS RDS,S3 bucket Static deployment |
 ================
 
 
